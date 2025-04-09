@@ -23,29 +23,51 @@
             text-align: center;
             margin-top: 300px;
         }
+
+        .contato {
+            color: rgb(137, 204, 243);
+        }
+
+        h1 {
+            text-align: center;
+        }
     </style>
     <title>ApoiUS - Contato</title>
 </head>
 <body>
     <div class="header">
         <img src="imagens/imagem4.jpg" alt="Imagem de Clínica Odontológica" width="300">
-    </div>
+    </div><br><br>
+    
+    <div class="contato">
+        <h3><b>Telefone:</b> (11)4453-7564</h3>
+        <h3><b>Celular:</b> (11)98675-6453</h3>
+    </div><br>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12380.260920241832!2d-46.62773456196768!3d-23.570648211592903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597826337fe3%3A0xb694e44849fc52b9!2zUGFycXVlIEFjbGltYcOnw6Nv!5e1!3m2!1spt-BR!2sbr!4v1744142152985!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    <fieldset class="endereco">
+        <legend><h3>Endereço</h3></legend>
+        <h3>Rua dos Três Irmãos, 123 - Vila São Paulo - São Paulo - SP</h3>
+        <h3>CEP: 12345-678</h3>
+    </fieldset><br><br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12380.260920241832!2d-46.62773456196768!3d-23.570648211592903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597826337fe3%3A0xb694e44849fc52b9!2zUGFycXVlIEFjbGltYcOnw6Nv!5e1!3m2!1spt-BR!2sbr!4v1744142152985!5m2!1spt-BR!2sbr" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
 
     <form>
-        <h1>Entre em Contato Conosco</h1>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
-
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
-
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar"><br><br>           
+        <h1>Entre em Contato Conosco</h1><br>
+        <fieldset>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"><br><br>
+        </fieldset>           
     </form>
+
+    <div class="footer">
+        <p>Todos os direitos reservados a Victor Robles</p>
+    </div>
 </body>
 </html>
